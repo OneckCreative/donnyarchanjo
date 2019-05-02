@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0;}
+
+
+html {
+	
+
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	
+	
+} 
+
+body {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+/*
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+*/
+}
+
+.footer {
+	font-weight: 700;
+	position: fixed;
+	overflow: hidden;
+	z-index: 10000;
+	background: #efefef;
+	text-align: center;
+	padding: 0px 10px;
+	height: 48px;
+	line-height: 48px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/*     Choose Service    */
+#msform .service_selector input{
+	margin:0;padding:0;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+
+#msform .service_selector input:active +.service_each{
+	opacity: .3;
+}
+#msform .service_selector input:checked +.service_each{
+	-webkit-filter: none;
+	-moz-filter: none;
+    filter: none;
+    color: #FFF;
+}
+#msform .service_each{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	cursor:pointer;
+	background-size:contain;
+	background-repeat:no-repeat;
+	display:inline-block;
+	width: 50%;
+	height: auto;
+	padding: 10px 10px;
+	border: 1px solid #333;
+	color: #202020;
+	background-color: #4d9fe4;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+#msform .service_each:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
