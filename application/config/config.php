@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/donny-archanjo/';
+$config['base_url'] = 'http://3.211.235.118/plesk-site-preview/donnyarchanjo.com.br/172.26.11.100/';
 
 /*
 |--------------------------------------------------------------------------
